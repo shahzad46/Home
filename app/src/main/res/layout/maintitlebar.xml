@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:paddingLeft="5dp" android:paddingRight="5dp"
+
+    >
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:text="HomeAuto 3.0"
+        android:clickable="true"
+        android:onClick="CallC"
+        android:textColor="#fbfbfc"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <!-- Facebook button -->
+
+    <!-- Twitter button -->
+    <!-- Linkedin button -->
+    <ImageView
+        android:id="@+id/pencil"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+
+        android:clickable="true"
+        android:contentDescription="Edit Button"
+        android:onClick="CallC"
+        android:src="@drawable/pencil" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:clickable="true"
+        android:onClick="CallC"
+        android:textColor="#fbfbfc"
+        android:layout_alignTop="@+id/title2"
+        android:layout_toLeftOf="@+id/pencil"
+        android:layout_toStartOf="@+id/pencil" />
+</RelativeLayout>
